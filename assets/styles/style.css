@@ -47,3 +47,35 @@ body{
     position: relative;
     top: 5px;
 }
+
+.blockForChat{
+    display: none;
+    flex-direction: row;
+    /* flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start; */
+}
+.userName{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.userAvatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.userComment {
+    background-color: #e0e0e0; 
+    padding: 15px; 
+    border-radius: 20px; 
+    border: 3px solid #999; 
+    margin-top: 20px;
+    font-style: italic; 
+    color: black;
+    max-width: 230px;
+    word-wrap: break-word;
+}
+.wrapper{
+    margin-left: 20px;
+}
